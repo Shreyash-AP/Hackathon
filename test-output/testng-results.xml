@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-01T13:53:41 IST" name="Suite" finished-at="2024-03-01T13:59:46 IST" duration-ms="365425">
+    <groups>
+      <group name="regression">
+        <method signature="TC001_HomePage.patientFilter()[pri:2, instance:testCases.TC001_HomePage@8297b3a]" name="patientFilter" class="testCases.TC001_HomePage"/>
+        <method signature="TC002_Surgery.displaySurgeryElements()[pri:2, instance:testCases.TC002_Surgery@7770f470]" name="displaySurgeryElements" class="testCases.TC002_Surgery"/>
+        <method signature="TC003_Form.negativeTesting()[pri:2, instance:testCases.TC003_Form@5e5d171f]" name="negativeTesting" class="testCases.TC003_Form"/>
+        <method signature="TC003_Form.positiveTesting()[pri:3, instance:testCases.TC003_Form@5e5d171f]" name="positiveTesting" class="testCases.TC003_Form"/>
+        <method signature="TC003_Form.displayResponse()[pri:4, instance:testCases.TC003_Form@5e5d171f]" name="displayResponse" class="testCases.TC003_Form"/>
+        <method signature="TC003_Form.displayAddResponse()[pri:5, instance:testCases.TC003_Form@5e5d171f]" name="displayAddResponse" class="testCases.TC003_Form"/>
+        <method signature="TC001_HomePage.experienceFilter()[pri:3, instance:testCases.TC001_HomePage@8297b3a]" name="experienceFilter" class="testCases.TC001_HomePage"/>
+        <method signature="TC001_HomePage.feesFilter()[pri:5, instance:testCases.TC001_HomePage@8297b3a]" name="feesFilter" class="testCases.TC001_HomePage"/>
+        <method signature="TC001_HomePage.sortFilter()[pri:6, instance:testCases.TC001_HomePage@8297b3a]" name="sortFilter" class="testCases.TC001_HomePage"/>
+        <method signature="TC001_HomePage.availableFilter()[pri:7, instance:testCases.TC001_HomePage@8297b3a]" name="availableFilter" class="testCases.TC001_HomePage"/>
+        <method signature="TC001_HomePage.displayDoctorInfo()[pri:8, instance:testCases.TC001_HomePage@8297b3a]" name="displayDoctorInfo" class="testCases.TC001_HomePage"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="TC001_HomePage.location()[pri:1, instance:testCases.TC001_HomePage@8297b3a]" name="location" class="testCases.TC001_HomePage"/>
+        <method signature="TC002_Surgery.navigateToSurgeries()[pri:1, instance:testCases.TC002_Surgery@7770f470]" name="navigateToSurgeries" class="testCases.TC002_Surgery"/>
+        <method signature="TC003_Form.navigateToHospital()[pri:1, instance:testCases.TC003_Form@5e5d171f]" name="navigateToHospital" class="testCases.TC003_Form"/>
+        <method signature="TC002_Surgery.displaySurgeryElements()[pri:2, instance:testCases.TC002_Surgery@7770f470]" name="displaySurgeryElements" class="testCases.TC002_Surgery"/>
+        <method signature="TC003_Form.negativeTesting()[pri:2, instance:testCases.TC003_Form@5e5d171f]" name="negativeTesting" class="testCases.TC003_Form"/>
+        <method signature="TC003_Form.positiveTesting()[pri:3, instance:testCases.TC003_Form@5e5d171f]" name="positiveTesting" class="testCases.TC003_Form"/>
+        <method signature="TC001_HomePage.allFilters()[pri:4, instance:testCases.TC001_HomePage@8297b3a]" name="allFilters" class="testCases.TC001_HomePage"/>
+        <method signature="TC001_HomePage.displayDoctorInfo()[pri:8, instance:testCases.TC001_HomePage@8297b3a]" name="displayDoctorInfo" class="testCases.TC001_HomePage"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2024-03-01T13:53:41 IST" name="ChromeTest" finished-at="2024-03-01T13:59:46 IST" duration-ms="365425">
+      <class name="testCases.TC002_Surgery">
+        <test-method signature="navigateToSurgeries()[pri:1, instance:testCases.TC002_Surgery@7770f470]" started-at="2024-03-01T13:57:21 IST" name="navigateToSurgeries" finished-at="2024-03-01T13:57:43 IST" duration-ms="22316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToSurgeries -->
+        <test-method signature="displaySurgeryElements()[pri:2, instance:testCases.TC002_Surgery@7770f470]" started-at="2024-03-01T13:57:44 IST" name="displaySurgeryElements" finished-at="2024-03-01T13:57:48 IST" duration-ms="4038" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displaySurgeryElements -->
+      </class> <!-- testCases.TC002_Surgery -->
+      <class name="testCases.TC003_Form">
+        <test-method signature="navigateToHospital()[pri:1, instance:testCases.TC003_Form@5e5d171f]" started-at="2024-03-01T13:57:48 IST" name="navigateToHospital" finished-at="2024-03-01T13:58:40 IST" duration-ms="51662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToHospital -->
+        <test-method signature="negativeTesting()[pri:2, instance:testCases.TC003_Form@5e5d171f]" started-at="2024-03-01T13:58:40 IST" name="negativeTesting" finished-at="2024-03-01T13:58:44 IST" duration-ms="3856" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeTesting -->
+        <test-method signature="positiveTesting()[pri:3, instance:testCases.TC003_Form@5e5d171f]" started-at="2024-03-01T13:58:44 IST" name="positiveTesting" finished-at="2024-03-01T13:59:43 IST" duration-ms="58871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveTesting -->
+        <test-method signature="displayResponse()[pri:4, instance:testCases.TC003_Form@5e5d171f]" started-at="2024-03-01T13:59:44 IST" name="displayResponse" finished-at="2024-03-01T13:59:44 IST" duration-ms="274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayResponse -->
+        <test-method signature="displayAddResponse()[pri:5, instance:testCases.TC003_Form@5e5d171f]" started-at="2024-03-01T13:59:44 IST" name="displayAddResponse" finished-at="2024-03-01T13:59:44 IST" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayAddResponse -->
+      </class> <!-- testCases.TC003_Form -->
+      <class name="testCases.TC001_HomePage">
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:testCases.TC001_HomePage@8297b3a]" started-at="2024-03-01T13:53:41 IST" name="initializeBrowser" finished-at="2024-03-01T13:54:32 IST" duration-ms="50171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="location()[pri:1, instance:testCases.TC001_HomePage@8297b3a]" started-at="2024-03-01T13:54:32 IST" name="location" finished-at="2024-03-01T13:55:16 IST" duration-ms="44147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- location -->
+        <test-method signature="patientFilter()[pri:2, instance:testCases.TC001_HomePage@8297b3a]" started-at="2024-03-01T13:55:16 IST" name="patientFilter" finished-at="2024-03-01T13:55:16 IST" depends-on-methods="testCases.TC001_HomePage.location" duration-ms="236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- patientFilter -->
+        <test-method signature="experienceFilter()[pri:3, instance:testCases.TC001_HomePage@8297b3a]" started-at="2024-03-01T13:55:17 IST" name="experienceFilter" finished-at="2024-03-01T13:55:19 IST" duration-ms="2164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- experienceFilter -->
+        <test-method signature="allFilters()[pri:4, instance:testCases.TC001_HomePage@8297b3a]" started-at="2024-03-01T13:55:58 IST" name="allFilters" finished-at="2024-03-01T13:55:58 IST" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allFilters -->
+        <test-method signature="feesFilter()[pri:5, instance:testCases.TC001_HomePage@8297b3a]" started-at="2024-03-01T13:55:58 IST" name="feesFilter" finished-at="2024-03-01T13:55:58 IST" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feesFilter -->
+        <test-method signature="sortFilter()[pri:6, instance:testCases.TC001_HomePage@8297b3a]" started-at="2024-03-01T13:55:58 IST" name="sortFilter" finished-at="2024-03-01T13:56:39 IST" duration-ms="40518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortFilter -->
+        <test-method signature="availableFilter()[pri:7, instance:testCases.TC001_HomePage@8297b3a]" started-at="2024-03-01T13:56:39 IST" name="availableFilter" finished-at="2024-03-01T13:56:40 IST" duration-ms="258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- availableFilter -->
+        <test-method signature="displayDoctorInfo()[pri:8, instance:testCases.TC001_HomePage@8297b3a]" started-at="2024-03-01T13:56:40 IST" name="displayDoctorInfo" finished-at="2024-03-01T13:57:21 IST" duration-ms="40983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayDoctorInfo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_HomePage@8297b3a]" started-at="2024-03-01T13:59:45 IST" name="tearDown" finished-at="2024-03-01T13:59:46 IST" duration-ms="1394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC001_HomePage -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
